@@ -68,6 +68,22 @@
     border: 1px solid rgba(36, 36, 36, 0.1);
     border-radius: 10px;
     padding: 8px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-social-link .header-social-icon {
+    color: rgba(36, 36, 36, 0.8);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-social-link:hover,
+  .header-social-link:focus {
+    background-color: rgba(36, 36, 36, 0.8);
+  }
+
+  .header-social-link:hover .header-social-icon,
+  .header-social-link:focus .header-social-icon {
+    color: white;
   }
 
   .header-btn {
